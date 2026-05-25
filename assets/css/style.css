@@ -1050,6 +1050,12 @@ header {
     width: auto;
 }
 
+@media (max-width: 767px) {
+    .navbar .navbar-brand img {
+        height: 60px;
+    }
+}
+
 .navbar .navbar-brand-sticky {
     display: none;
 }
