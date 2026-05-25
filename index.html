@@ -758,7 +758,7 @@
                         <!-- Contact Box -->
                         <div class="contact-box text-center">
                             <!-- Contact Form -->
-                            <form id="contact-form" method="POST" action="assets/php/mail.php">
+                            <form id="contact-form" onsubmit="event.preventDefault(); document.querySelector('.form-message').textContent='Thanks — we’ll be in touch shortly.'; this.reset();">
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="form-group">
